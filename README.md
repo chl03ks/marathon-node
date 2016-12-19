@@ -6,7 +6,7 @@ Node.js client library for Marathon's REST API.
 
 Install using npm or yarn
 
-```
+```javascript
   npm install marathon-node
   // or
   yarn add marathon-node
@@ -14,7 +14,7 @@ Install using npm or yarn
 
 ## Config
 
-```
+```javascript
 const marathonClient = require('marathon-node')(MARATHON_API_URL, {
   // if you have basic authentifiaction in you marathon API
   auth: {
@@ -26,6 +26,7 @@ const marathonClient = require('marathon-node')(MARATHON_API_URL, {
     'Authorization': 'token=MARATHON_AUTH_TOKEN'
   }
 });
+
 ```
 
 ## API Methods
@@ -34,13 +35,13 @@ const marathonClient = require('marathon-node')(MARATHON_API_URL, {
 
 - /v2/apps GET
 
-```
+```javascript
 marathonClient.apps.getList(query)
 ````
 
 - /v2/apps POST "Create App"
 
-```
+```javascript
 marathonClient.app.create(body)
 ```
 
