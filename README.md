@@ -6,9 +6,9 @@ Node.js client library for Marathon's REST API.
 
 Install using npm or yarn
 
-```javascript
-npm install marathon-node-library
-yarn add marathon-node-library
+```shell
+$ npm install marathon-node-library
+$ yarn add marathon-node-library
 ```
 
 ## Config
