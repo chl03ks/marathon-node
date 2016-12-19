@@ -1,0 +1,25 @@
+{
+  "name": "marathon-node",
+  "version": "1.0.0",
+  "description": "Node.js client library for Marathon's REST API with native Promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owndann/marathon-node.git"
+  },
+  "keywords": [
+    "marathon",
+    "node",
+    "mesos",
+    "dcos"
+  ],
+  "author": "owndann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owndann/marathon-node/issues"
+  },
+  "homepage": "https://github.com/owndann/marathon-node#readme"
+}
