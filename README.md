@@ -2,6 +2,16 @@
 
 Node.js client library for Marathon's REST API.
 
+## Install
+
+Install using npm or yarn
+
+```
+  npm install marathon-node
+  // or
+  yarn add marathon-node
+```
+
 ## Config
 
 ```
@@ -19,3 +29,15 @@ const marathonClient = require('marathon-node')(MARATHON_API_URL, {
 ```
 
 ## API Methods
+
+### Apps
+
+- /v2/apps GET
+
+```
+marathonClient.apps.getList(query)
+```
+
+#License
+
+MIT.
