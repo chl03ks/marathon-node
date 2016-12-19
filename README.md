@@ -1,4 +1,4 @@
-# dcos-marathon-node
+# Marathon Node.js Client Library
 
 Node.js client library for Marathon's REST API.
 
@@ -36,7 +36,7 @@ const marathonClient = require('marathon-node')(MARATHON_API_URL, {
 
 ```
 marathonClient.apps.getList(query)
-```
+````
 
 - /v2/apps POST "Create App"
 
