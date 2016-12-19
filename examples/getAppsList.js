@@ -7,7 +7,10 @@ const marathonClient = require('../lib/index')(MARATHON_API_URL, {
     }
 });
 
-marathonClient.apps
-  .getList()
-  .then(apps => console.log(apps))
-  .catch(error => console.error(error));
+marathonClient.apps.getList()
+    .then((apps) => {
+      console.log(apps);
+    })
+    .catch((error) => {
+      console.error(error)
+    });
