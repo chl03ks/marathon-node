@@ -14,7 +14,7 @@ $ yarn add marathon-node-library
 ## Config
 
 ```javascript
-const marathonClient = require('marathon-node')(MARATHON_API_URL, {
+const marathonClient = require('marathon-node-library')(MARATHON_API_URL, {
   // if you have basic authentifiaction in you marathon API
   auth: {
     user: MARATHON_USER,
