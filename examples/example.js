@@ -1,4 +1,4 @@
-const marathonClient = require('marathon-node')(MARATHON_API_URL, {
+const marathonClient = require('../lib/index')(MARATHON_API_URL, {
   headers: {
       'Authorization': 'token=MARATHON_AUTH_TOKEN'
   }
