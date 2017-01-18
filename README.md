@@ -1,6 +1,6 @@
 # Marathon Node.js Client Library
 
-Node.js client library lightweight for Marathon's REST API.
+Node.js client library lightweight for Marathon's REST API. ES6
 
 ## Install
 
