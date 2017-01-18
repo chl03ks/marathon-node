@@ -1,6 +1,6 @@
 # Marathon Node.js Client Library
 
-Node.js client library for Marathon's REST API.
+Node.js client library lightweight for Marathon's REST API.
 
 ## Install
 
@@ -36,13 +36,15 @@ const marathonClient = require('marathon-node-library')(MARATHON_API_URL, {
 
 ```javascript
 marathonClient.apps.getList(query)
-````
+```
 
 - /v2/apps POST "Create App"
 
 ```javascript
 marathonClient.app.create(body)
 ```
+
+####  Insipred on [marathon-node](https://github.com/elasticio/marathon-node) of [@elasticio](https://github.com/elasticio)
 
 #License
 
