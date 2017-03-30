@@ -1,6 +1,6 @@
 {
   "name": "marathon-node-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js client library for Marathon's REST API with native Promises",
   "main": "index.js",
   "scripts": {
