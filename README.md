@@ -46,6 +46,6 @@ marathonClient.app.create(body)
 
 ####  Insipred on [marathon-node](https://github.com/elasticio/marathon-node) of [@elasticio](https://github.com/elasticio)
 
-#License
+# License
 
 MIT.
